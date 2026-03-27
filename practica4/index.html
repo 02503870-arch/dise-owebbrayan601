@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formularios-Brayan lopez-601</title>
+</head>
+<body>
+
+	<h1>Formularios</h1>
+	<h2>por: Brayan Lopez- 601</h2>
+
+	<p>Los formularios son campos que permiten capturar informacion por parte del usuario que permoitira a nuestrpo sitio interactuar.</p>
+	<hr>
+	<h3>Este es un ejemplo de formulario:</h3>
+
+	<form>
+	<label>Nombre:</label>
+	<input type="text" name="nombre" maxlength="100" placeholder="nombre completo" required >
+
+	<br>
+	<label>correo electronico:</label>
+	<input type="email" name="correo"placeholder="escribe correo"required>
+	
+	<br>
+
+	<label>contraseña</label>
+	<input type="password" name="pass"
+	placeholder="minimo 8 caracteres" minlength="8" required>
+	<br>
+	<label>Fecha de nacimiento</label>
+	<input type="date" name="Fecha" required>
+
+	<br>
+	<label>Nacionalidad</label>
+	<select>
+		<option selected disabled>Selecciona un pais</option>
+		<option>Mexico</option>
+		<option>Estados unidos</option>
+		<option>España</option>
+		<option>Hong kong</option>
+		<option>Rusia</option>
+		<option>Japon</option>
+		<option>Peru</option>
+		<option>Argentina</option>
+		<option>Brasil</option>
+	</select>
+
+	<br>
+	<label>Escoge tus pasatiempos</label>
+	<br>
+	<input type="checkbox" name="pasatiempos">Leer <br>
+	<input type="checkbox" name="pasatiempos">Escuchar musica <br>
+	<input type="checkbox" name="pasatiempos">Dibujar <br>
+	<input type="checkbox" name="pasatiempos">Jugar videojuegos <br>
+	<input type="checkbox" name="pasatiempos">practicar deporte <br>
+	<input type="checkbox" name="pasariempo">cocinar <br>
+	<input type="checkbox" name="pasatiempos">Pintar <br> 
+	<br>
+	 <label>Genero:</label>
+	 <input type="radio" name="sexo">Hombre
+	 <input type="radio" name="sexo">Mujer
+	 <input type="radio" name="sexo">prefiero no decirlo
+
+	 <br>
+	 <label> Sube tu fotogafia</label>
+	 <input type="file" name="Archivo"required>
+	 <br>
+
+	 <label>Escribe tu mensaje:</label><br>
+	 <textarea placeholder="deja tu mensaje"></textarea>
+
+
+
+
+
+	<br>
+	<br>
+	<input type="submit" name="boton" value="contacta al 601">
+	<input type="reset" name="borrar" value="Borrar 
+	campos">
+
+	<hr>
+
+	<a href="../index.html"> volver</a>
+
+
+
+	</form>
+
+</body>
+</html>
